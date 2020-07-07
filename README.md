@@ -2,7 +2,7 @@
 
 **[Accompanying technical report link](https://arxiv.org/abs/2007.02701)**
 
-Code for imitation learning of the [MineRL](www.google.com) `MineRLObtainDiamond-v0` task. 
+Code for imitation learning of the [MineRL](https://minerl.io/) `MineRLObtainDiamond-v0` task. 
 This implementation is an improved version of our submission to the [Minecraft  competition  on  sampleefficient reinforcement learning at NeurIPS 2019](https://www.aicrowd.com/challenges/neurips-2019-minerl-competition). 
 The initial version was able to reach the second place in the competition without using the Minecraft environment during training.
 
