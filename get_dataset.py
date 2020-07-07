@@ -151,8 +151,7 @@ def put_data_into_dataset(env_name, action_manager, dataset, minecraft_human_dat
                 added_samples, last_reward = process_sample(sample_que[i], last_reward)
                 added_sample_counter += added_samples
 
-            # a terminal state could be reached without exceeding max_reward,
-            # usually due to bugs in the Minecraft human data. Therefore:
+            # a terminal state could be reached without exceeding max_reward:
             added_sample_counter -= dataset.remove_new_data()
 
             # making sure the last state from trajectory is terminal:
