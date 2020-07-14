@@ -4,11 +4,9 @@
 
 Code for imitation learning of the [MineRL](https://minerl.io/) `MineRLObtainDiamond-v0` task. 
 This implementation is an improved version of our submission to the [Minecraft  competition  on  sampleefficient reinforcement learning at NeurIPS 2019](https://www.aicrowd.com/challenges/neurips-2019-minerl-competition). 
-The initial version was able to reach the second place in the competition without using the Minecraft environment during training.
-
+The initial version was able to reach the second place in the competition without using the Minecraft environment during training. A video of one cherry picked episode is available [here](https://youtu.be/ocCJXzNmzHk).
 
 The implementation is partly based on [Kaixhin's Pytorch implementation of Rainbow](https://github.com/Kaixhin/Rainbow), and the `deep_resnet` architecture is based on the network architecture used in [unixpickle's Obstacle Tower Challenge solution](https://github.com/unixpickle/obs-tower2).
-  
 
 ## Dependencies:
 
